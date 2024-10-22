@@ -18,7 +18,7 @@ This game is built using **JavaScript** and **HTML5 Canvas**, with **Webpack** b
 
 1. Clone this repository to your local machine:
     ```bash
-    git clone [repository-url]
+    git clone https://github.com/Emmanuel-Okpiaifo/rpg-game-planet-defense-.git
     ```
 2. Navigate to the project directory:
     ```bash
@@ -63,7 +63,7 @@ The objective of the game is to protect your planet by shooting down meteors bef
 
 ## **Known Bugs**
 
-- None currently known. Please report any issues you encounter.
+- Record score counter stays stagnant.
 
 ---
 
