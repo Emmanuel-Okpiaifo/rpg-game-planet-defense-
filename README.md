@@ -22,7 +22,7 @@ This game is built using **JavaScript** and **HTML5 Canvas**, with **Webpack** b
     ```
 2. Navigate to the project directory:
     ```bash
-    cd planet-defense-rpg
+    cd rpg-game-planet-defense
     ```
 3. Install the necessary dependencies using npm:
     ```bash
