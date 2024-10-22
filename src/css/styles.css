@@ -1,0 +1,58 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#canvas {
+  background: url('https://marclopezavila.github.io/planet-defense-game/img/space.jpg') no-repeat center center;
+  background-size: cover;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Start and Game Over Popups */
+.popup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 2;
+  display: none; /* Initially hidden */
+}
+
+.popup h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  color: #FF6347;
+}
+
+.popup p {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.popup button {
+  background: #FF6347;
+  border: none;
+  padding: 10px 30px;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.popup button:hover {
+  background-color: #FF4500;
+}

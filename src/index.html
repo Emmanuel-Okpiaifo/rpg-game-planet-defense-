@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planet Defense</title>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <a href="https://codepen.io/Loopez10/full/dMaVdQ" class="full-screen" target="_blank"></a>
+
+    <!-- Start Game Popup -->
+    <div id="start-screen" class="popup">
+        <h1>Planet Defense</h1>
+        <p>Click to start defending the planet!</p>
+        <button id="start-game-button">Start Game</button>
+    </div>
+
+    <!-- Game Over Popup -->
+    <div id="game-over-screen" class="popup">
+        <h1>Game Over</h1>
+        <p id="final-score">Total Destroyed: 0</p>
+        <button id="restart-game-button">Restart Game</button>
+    </div>
+
+    <!-- No need to manually include bundle.js here, Webpack will inject it -->
+</body>
+</html>
