@@ -8,7 +8,7 @@
 
 ## **Description**
 
-**Planet Defense RPG** is an interactive web-based arcade game where players must protect their planet from an onslaught of meteors using a single rocket. The goal is to destroy as many meteors as possible before they collide with the planet. The game becomes progressively harder as the speed and frequency of meteors increase.
+**Planet Defense RPG** is an interactive web-based arcade game where players must protect their planet from an onslaught of meteors using a single rocket. The goal is to destroy as many meteors as possible before they collide with the planet. The game becomes progressively harder as the speed and frequency of meteors increase. Credit to [@Marc Lopez](https://codepen.io/Loopez10).
 
 This game is built using **JavaScript** and **HTML5 Canvas**, with **Webpack** bundling the assets to create a responsive and fast-paced experience. Players can restart the game upon losing, aiming for a new high score each time.
 
